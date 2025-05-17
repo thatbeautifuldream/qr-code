@@ -1,5 +1,15 @@
 # QR Code Generator
 
-This project is a simple and modern QR code generator built with Next.js. It allows users to generate QR codes for any URL by passing the URL as a query parameter. The app provides options to copy the URL, and download the QR code as SVG or PNG. It features a clean UI and instant feedback for user actions.
+> :sparkles: **A simple and modern QR code generator built with Next.js**
 
-Check it out [qr-code.milind.app](https://qr-code.milind.app)
+> :link: **Generate QR codes for any URL** > <br>Pass the URL as a query parameter to instantly create a QR code.
+
+> :clipboard: **Copy the URL with one click**
+
+> :arrow_down: **Download the QR code as SVG or PNG**
+
+> :art: **Clean UI & instant feedback for user actions**
+
+---
+
+:rocket: **Check it out:** [qr-code.milind.app](https://qr-code.milind.app)
