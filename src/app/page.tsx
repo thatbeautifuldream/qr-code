@@ -1,12 +1,11 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
-import { useQueryState, parseAsString } from 'nuqs';
 import { QRCode } from '@/components/qr-code';
 import { Button } from '@/components/ui/button';
-import { DownloadIcon, CopyIcon, CheckIcon } from 'lucide-react';
-import { useState } from 'react';
+import { CheckIcon, CopyIcon, DownloadIcon } from 'lucide-react';
 import { motion } from 'motion/react';
+import { parseAsString, useQueryState } from 'nuqs';
+import { useState } from 'react';
 
 export default function Home() {
   const [url] = useQueryState('url', parseAsString);
